@@ -29,6 +29,9 @@ h2{
 p{
     font:400 22px/31.5px Effra, sans-serif;
 }
+p em{
+    font:italic 400 22px/31.5px Effra, sans-serif;
+}
 
 @media screen and (max-width:768px){
     h1{
@@ -184,22 +187,27 @@ a:hover{
 }
 
 .blog-post-content h1{
-    padding-top:55px;
-    font-size: 80px;
+    padding-top:10px;
+    font-size: 70px;
     line-height: 85px;
     margin-bottom: 30px;
 }
 
 .blog-post-content h2{
-    font-size: 55px;
-    line-height: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .blog-post-content h3{
-    font: 45px/57px Effra, sans-serif;
+    font: 37px/47px Effra, sans-serif;
     margin-bottom: 10px;
+}
+
+.blog-post-content p em{
+    font: italic 400 23px/33px Effra, sans-serif;
+    letter-spacing: 0.5px;
 }
 
 .blog-post-content li{
@@ -266,12 +274,12 @@ a:hover{
     }
     .blog-post-content h1{
         padding-top:35px;
-        font-size: 65px;
+        font-size: 60px;
         line-height: 70px;
     }
     .blog-post-content h2{
-        font-size: 47px;
-        line-height: 53px;
+        font-size: 40px;
+        line-height: 48px;
     }
     .blog-post-content h3{
         font-size: 45px;
