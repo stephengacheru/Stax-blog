@@ -12,3 +12,5 @@ content/logs/http___localhost_2368__development.log
 content/logs/http___localhost_2368__development.error.log
 .ghostpid
 content/themes/.DS_Store
+content/data/ghost-local.db
+content/logs/http___localhost_2368__development.log

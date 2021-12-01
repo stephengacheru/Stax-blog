@@ -290,7 +290,6 @@ a:hover{
 .error{
    margin-top: 140px;
 }
-
 .error-code{
     font-size:180px;
     color: #F1F1F4;
@@ -442,85 +441,23 @@ footer .nav li a{
     }
 }
 
-  /* .blog-post-thumb-container{
-    padding-left: 40px;
-}
 
-.blog-list .blog-post-thumb-container {
-    margin-bottom: 90px;
-}
-.blog-post-thumb-container.last{
-    margin-right:0;
-}
-
-.blog-post-thumb{
-    border-radius: 10px;
-    background-color: #1D242B;
-    width: 90%;   
-}
-
-
-.blog-post-thumb img{
-    width: 100% ;
-    height: auto;
-}
-
-.blog-post-thumb:before,.blog-post-thumb:after{
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: -1;
-} 
-
-.blog-post-thumb:before{
-    border-image: linear-gradient(5deg, #0699E5 0%, rgba(68,229,206,1) 100%);;
-    border-image-slice: 1 1 0 1;
-    left:-18px;
-    top: 9px;
-    width: 20px;
-    height: 101%;
-    transform: skewY(-45deg);
-    background: linear-gradient(5deg, rgba(2,149,231,1) 0%, rgba(68,229,206,1) 100%);
-    border-radius:0 0 0px 10px;
-} 
-.blog-post-thumb:after {
-    border-image: #0699E5;
-    bottom: -17px;
-    right: 10px;
+.iframe-container{
+    position: relative;
     width: 100%;
-    height: 20px;
-    transform: skewX(-45deg);
-    background:#0699E5;
-    border-radius:0 30px 5px 10px;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin-bottom:30px;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
-.blog-post-thumb h3{
-    font-weight: 400;
-    padding:20px;
-    font-size: 22px;
-    line-height: 30px;
-}
-.blog-post-thumb h3 a{
-    color: #fff;
-    text-decoration: none;
-} */
 
-
-
-
-
-
-
-
-/* .content {
-    width: 70%;
-    margin: 0 auto;
-}
-
-article img {
-    display: block;
-    max-width: 100%;
-}
 
 .kg-width-wide {
     position: relative;
@@ -539,24 +476,6 @@ article img {
     margin-right: -50vw;
 }
 
-article figure {
-    margin: 0;
-}
-
-article figcaption {
-    text-align: center;
-}
-
-body {
-    margin: 0;
-}
-
-header,
-footer {
-    padding: 15px 25px;
-    background-color: #000;
-    color: #fff;
-}
 .kg-gallery-container {
     display: flex;
     flex-direction: column;
@@ -671,4 +590,4 @@ footer {
 
 .text-upper {
     text-transform: uppercase;
-} */
+} 
