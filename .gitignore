@@ -5,3 +5,10 @@ content/.DS_Store
 content/.DS_Store
 content/.DS_Store
 content/themes/.DS_Store
+*.db
+*.log
+content/themes/.DS_Store
+content/logs/http___localhost_2368__development.log
+content/logs/http___localhost_2368__development.error.log
+.ghostpid
+content/themes/.DS_Store
